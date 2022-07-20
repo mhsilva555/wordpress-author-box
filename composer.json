@@ -1,0 +1,17 @@
+{
+    "name": "plugin/wpp-author-box",
+    "type": "wordpress-plugin",
+    "license": "GPL v2",
+    "autoload": {
+        "psr-4": {
+            "WppAuthorBox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcos Henrique",
+            "email": "mhsilva555@gmail.com"
+        }
+    ],
+    "require": {}
+}

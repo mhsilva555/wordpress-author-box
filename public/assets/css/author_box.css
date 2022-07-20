@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.author-box {
+    width: 100%;
+    max-width: 795px;
+    margin: 80px auto 0 auto !important;
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    padding: 31px 42px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000014;
+    -webkit-box-shadow: 0px 3px 6px #00000014;
+    -moz-box-shadow: 0px 3px 6px #00000014;
+}
+.author-box .row-box {
+    display: flex;
+}
+
+@media (max-width: 500px) {
+    .author-box {
+        max-width: 100% !important;
+    }
+    .author-box .row-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .author-box .row-box .col-box:nth-child(1) {
+        margin-bottom: 30px;
+    }
+    .author-box .author-box-bio {
+        font-size: 1rem !important;
+    }
+}
+
+.author-box .row-box .col-box {
+    flex-basis: 100%;
+}
+.author-box .row-box .col-box:nth-child(1) {
+    max-width: 184px;
+}
+.author-box .row-box .col-box:nth-child(2) {
+    max-width: 501px;
+}
+.author-box .row-box .col-box:not(:last-child) {
+    margin-right: 28px;
+}
+.author-box .author-profile-photo {
+    border: 5px solid #22B5FF;
+    width: 184px;
+    height: 184px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.author-box .author-profile-photo img {
+    max-width: 100%;
+    height: auto;
+}
+.author-box .author-box-name {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #2D385D;
+}
+.author-box .author-box-bio {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 1.6;
+    color: #2D385D;
+    margin: 22px 0;
+    /* white-space: pre-line; */
+}
